@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6080be95-6422-45cf-85a0-41962a369837" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/P3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main_aks_xyz_loggar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/.settings/language.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Lokalt styresystem.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_can.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_exti.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_gpio.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_i2c.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_it.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_misc.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_rcc.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_spi.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_syscfg.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_tim.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/stm32f30x_usart.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/cmsis_lib/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/example/GPIO_Toggle_Example.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/example/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/example/system_stm32f30x.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/main.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/GPIO_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/I2C_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/LCD_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/LSM303DLHC_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/SPI1_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/SPI2_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/TIM_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/UART_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/avbrots_metodar.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/initialisering.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/metodar/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/printf.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/stm32f3_discovery/stm32f3_discovery.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/stm32f3_discovery/stm32f3_discovery_l3gd20.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/stm32f3_discovery/stm32f3_discovery_lsm303dlhc.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/stm32f3_discovery/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/syscalls.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/sysmem.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Src/system_stm32f30x_temp.cyclo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/Startup/subdir.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/objects.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/objects.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Debug/sources.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis/core_cm4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis/core_cm4_simd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis/core_cmFunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis/core_cmInstr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_boot/stm32f30x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_boot/system_stm32f30x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_can.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_exti.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_gpio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_i2c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_it.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_rcc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_spi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_syscfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_tim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/cmsis_lib/stm32f30x_usart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/dekl_globale_variablar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Inc/extern_dekl_globale_variablar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Lokalt styresystem.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/STM32F303VCTX_FLASH.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_can.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_exti.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_gpio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_i2c.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_it.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_misc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_rcc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_spi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_syscfg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_tim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/cmsis_lib/stm32f30x_usart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/example/GPIO_Toggle_Example.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/example/system_stm32f30x.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/GPIO_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/I2C_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/LCD_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/LSM303DLHC_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/SPI1_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/SPI2_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/TIM_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/UART_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/avbrots_metodar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/metodar/initialisering.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/printf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/stm32f3_discovery/stm32f3_discovery.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/stm32f3_discovery/stm32f3_discovery.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/stm32f3_discovery/stm32f3_discovery_l3gd20.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/stm32f3_discovery/stm32f3_discovery_l3gd20.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/stm32f3_discovery/stm32f3_discovery_lsm303dlhc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/stm32f3_discovery/stm32f3_discovery_lsm303dlhc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/syscalls.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/sysmem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Src/system_stm32f30x_temp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/Lokalt styresystem/Startup/startup_stm32f303vctx.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lokalt_styresystem/dmk_flytdiagram_lokalt_styrsys.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="main_aks_xyz_loggar.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main_aks_xyz_loggar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+              <folding>
+                <element signature="e#674#690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main_aks_xyz_loggar.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectId" id="2lk1DPQjD4Ad4uzR0CYO0bOrp92" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="P3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mbnas/ELE340/ELE340_rep/P3/P3"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="P3" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="main_aks_xyz_loggar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="P3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_aks_xyz_loggar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_aks_xyz_loggar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6080be95-6422-45cf-85a0-41962a369837" name="Default" comment="" />
+      <created>1470409175227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470409175227</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="0" width="1932" height="1044" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17920585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main_aks_xyz_loggar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#674#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_aks_xyz_loggar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#674#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../Python/64/352/Lib/site-packages/serial/serialwin32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_aks_xyz_loggar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="e#674#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

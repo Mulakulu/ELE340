@@ -2684,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 105.41 33.02)
+			(xy 95.25 33.02) (xy 101.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2784,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 33.02) (xy 105.41 31.75)
+			(xy 101.6 33.02) (xy 101.6 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2994,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 81.28 31.75)
+			(xy 81.28 35.56) (xy 81.28 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3091,6 +3091,52 @@
 			)
 		)
 		(uuid "c8c1fa80-b53a-4032-aa8a-4f1c54bee742")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83da79ad-48dc-4536-b77d-d5b5e914156c")
+		(property "Vin_DA15" ""
+			(at 96.774 25.908 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 81.28 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff16fe27-1c30-4498-83a2-cc2a4a5f7464")
+		(property "Vout_DA15" ""
+			(at 75.946 25.908 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4396,73 +4442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 105.41 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "730028bd-a08c-4222-a952-b205ce340397")
-		(property "Reference" "Vout_DA2"
-			(at 100.33 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 107.95 29.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 105.41 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9120d56d-de28-4528-83c4-9c63d1f69298")
-		)
-		(instances
-			(project "KiCad_files"
-				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
-					(reference "Vout_DA2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 165.1 50.8 0)
 		(unit 1)
@@ -5410,73 +5389,6 @@
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
 					(reference "JMP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 81.28 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a848cbe2-fea7-410b-87c2-ecc600e9854a")
-		(property "Reference" "Vout_DA1"
-			(at 76.454 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 83.82 29.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 81.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30d593e8-373a-435e-9258-e8281ed042d9")
-		)
-		(instances
-			(project "KiCad_files"
-				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
-					(reference "Vout_DA1")
 					(unit 1)
 				)
 			)

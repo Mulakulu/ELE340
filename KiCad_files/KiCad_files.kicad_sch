@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "f93895fa-12b9-4ad7-81f4-36be00b56edd")
 	(paper "A4")
+	(title_block
+		(title "Schematic Drawing Proposal")
+		(date "26/9/2024")
+		(company "ELE340-Elektronikkutvikling og Systemkonstruksjon")
+		(comment 1 "Mohamed B A Alsoufi(274685)")
+		(comment 2 "Mahdi Nasser(273406)")
+		(comment 3 "David Rundhaug Bryntesen (267497)")
+	)
 	(lib_symbols
 		(symbol "ADM3488ExR_1"
 			(exclude_from_sim no)
@@ -4401,6 +4409,12 @@
 		(uuid "30d28c68-ea95-40f4-9e67-903b60450696")
 	)
 	(junction
+		(at 110.49 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3243d775-2a17-4360-b3f9-ad9598720306")
+	)
+	(junction
 		(at 191.77 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4557,6 +4571,12 @@
 		(uuid "8e44667a-bf2f-4f79-a41c-fc7787b63c8c")
 	)
 	(junction
+		(at 144.78 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93609095-4d8f-4060-be56-13483b632da9")
+	)
+	(junction
 		(at 144.78 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4591,6 +4611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1cf6ecc-8528-476a-9e6e-2ca7cff42468")
+	)
+	(junction
+		(at 144.78 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b262a485-9634-4aaf-bd9a-77b590a91944")
 	)
 	(junction
 		(at 69.85 86.36)
@@ -4647,6 +4673,12 @@
 		(uuid "e9f72776-ce0d-4ce9-8494-92440ee2ad4b")
 	)
 	(junction
+		(at 144.78 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22406b4-43e3-4738-aaa2-0841d74ea885")
+	)
+	(junction
 		(at 220.98 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4691,6 +4723,16 @@
 			(type default)
 		)
 		(uuid "03fd9709-3c76-48cb-ba73-64ce1629b2b2")
+	)
+	(wire
+		(pts
+			(xy 140.97 72.39) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b78814-54b5-4fc8-a06b-5e5fbe688e95")
 	)
 	(wire
 		(pts
@@ -4974,6 +5016,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b9b364-e2fb-42ae-81d5-53a1b67403ea")
+	)
+	(wire
+		(pts
 			(xy 142.24 161.29) (xy 143.51 161.29)
 		)
 		(stroke
@@ -5184,6 +5236,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 59.69) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d64b7f-fe1b-4d2c-a602-91d3f1273fd7")
+	)
+	(wire
+		(pts
 			(xy 31.75 133.35) (xy 34.29 133.35)
 		)
 		(stroke
@@ -5251,6 +5313,16 @@
 			(type default)
 		)
 		(uuid "459975b9-0004-4f7b-ab82-3f4070b60028")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 110.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46176473-b27d-481e-90dd-7991cd072c6f")
 	)
 	(wire
 		(pts
@@ -5564,6 +5636,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 67.31) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bba3fd8-18c7-41c9-b611-8f99f9deaa62")
+	)
+	(wire
+		(pts
 			(xy 151.13 161.29) (xy 153.67 161.29)
 		)
 		(stroke
@@ -5814,6 +5896,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 69.85) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a564626a-078d-459f-bb7b-63daf7f9b993")
+	)
+	(wire
+		(pts
 			(xy 242.57 116.84) (xy 242.57 120.65)
 		)
 		(stroke
@@ -5951,6 +6043,16 @@
 			(type default)
 		)
 		(uuid "af1d91b0-eee3-406d-9b7c-ae97cfcc4083")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05dcd19-5bf9-4a96-861c-b20d203a60f0")
 	)
 	(wire
 		(pts
@@ -6264,6 +6366,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 69.85) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29a2bb2-30f1-4681-981e-3c1aea3622cd")
+	)
+	(wire
+		(pts
 			(xy 67.31 158.75) (xy 72.39 158.75)
 		)
 		(stroke
@@ -6311,6 +6423,16 @@
 			(type default)
 		)
 		(uuid "d7eb3f17-8b75-4948-8b22-f564c23826be")
+	)
+	(wire
+		(pts
+			(xy 144.78 72.39) (xy 144.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a602ce-a862-451a-903d-de655b2d1378")
 	)
 	(wire
 		(pts
@@ -6371,6 +6493,16 @@
 			(type default)
 		)
 		(uuid "e1249a29-3a12-400a-91c2-6a1d51ddeaa8")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f31cb0-4427-43b6-8ea7-00734d1f2fcf")
 	)
 	(wire
 		(pts
@@ -6604,6 +6736,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 74.93) (xy 144.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa40d413-a173-4297-a6de-01bc9abdfe95")
+	)
+	(wire
+		(pts
 			(xy 55.88 135.89) (xy 62.23 135.89)
 		)
 		(stroke
@@ -6631,6 +6773,16 @@
 			(type default)
 		)
 		(uuid "fbb6f477-5cbe-441d-b130-9886e86af77f")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf024b9-e982-4fb0-945b-f003c478996c")
 	)
 	(wire
 		(pts
@@ -7397,6 +7549,70 @@
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
 					(reference "JMP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15bc8d93-46fd-4aea-8e54-588a7a9c4e19")
+		(property "Reference" "J10"
+			(at 122.682 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB1"
+			(at 127.254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f35ea6c0-b76e-4478-a132-ee1e40d2fbe3")
+		)
+		(instances
+			(project "KiCad_files"
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -8646,6 +8862,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3666e840-e3d2-4aae-9e1b-10b5358c0d5e")
+		(property "Reference" "TP18"
+			(at 107.188 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 107.188 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "290ee2ed-b8bc-48c5-a5da-e2b190320942")
+		)
+		(instances
+			(project ""
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 220.98 50.8 0)
 		(unit 1)
@@ -9479,6 +9761,70 @@
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 135.89 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49427737-2683-408f-84cf-3327a216b010")
+		(property "Reference" "J8"
+			(at 132.588 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB1"
+			(at 128.016 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d78051f-8170-4b9a-aacd-94200a8b9f39")
+		)
+		(instances
+			(project ""
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11540,6 +11886,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 135.89 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d0faa07-f013-4720-895b-ea70435e3abd")
+		(property "Reference" "J9"
+			(at 132.588 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB2"
+			(at 128.016 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554ba6c8-41eb-4a6e-afc9-4bf725b2fa7e")
+		)
+		(instances
+			(project ""
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 184.15 124.46 0)
 		(unit 1)
@@ -11940,6 +12350,72 @@
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 148.59 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ae1443d-140b-41cf-876a-9e3f3ecf9310")
+		(property "Reference" "#PWR050"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afccb4d0-e700-47d2-86b1-f7f904f6fe67")
+		)
+		(instances
+			(project "KiCad_files"
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13914,6 +14390,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 135.89 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aecb1886-4260-4aa7-9dab-f2d655b2575d")
+		(property "Reference" "J8"
+			(at 132.588 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB2"
+			(at 128.016 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 135.89 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d4abd6f-f2d2-4432-8dad-75bb19d25631")
+		)
+		(instances
+			(project ""
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 242.57 133.35 0)
 		(unit 1)
@@ -15078,6 +15618,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 135.89 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddc9dc6c-188c-4e54-a35a-fb6521b2891e")
+		(property "Reference" "J9"
+			(at 132.588 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB1"
+			(at 128.016 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 135.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "592f032b-00ca-47cb-9b49-bf7b3b80dd5c")
+		)
+		(instances
+			(project ""
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 201.93 127 0)
 		(unit 1)
@@ -15408,6 +16012,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea9c2aa2-b4ca-4850-a7b6-483f6f65859f")
+		(property "Reference" "J10"
+			(at 122.682 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB2"
+			(at 127.254 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a59f35-569f-4144-b61e-92ee84fe5b6d")
+		)
+		(instances
+			(project "KiCad_files"
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 54.61 86.36 180)
 		(unit 1)
@@ -15671,16 +16339,16 @@
 			(uuid "bb908c07-ae31-4b92-b431-5c6d849edf3e")
 		)
 		(pin "6"
-			(uuid "bd61ff33-2141-4d93-973f-02e2f11cea3b")
+			(uuid "bd61ff33-2141-4d93-973f-02e2f11cea3c")
 		)
 		(pin "2"
 			(uuid "439d7dbd-d832-4430-9ad3-1b8379fb73b5")
 		)
 		(pin "3"
-			(uuid "a29b25a1-bafb-4478-be3f-9fa3c2568904")
+			(uuid "a29b25a1-bafb-4478-be3f-9fa3c2568905")
 		)
 		(pin "4"
-			(uuid "6b896e56-e5c3-4418-b07f-99ce6f05bc4f")
+			(uuid "6b896e56-e5c3-4418-b07f-99ce6f05bc50")
 		)
 		(instances
 			(project "KiCad_files"

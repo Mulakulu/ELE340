@@ -22,7 +22,7 @@ void SysTick_oppstart(void);
 void SysTick_Handler(void);
 void GPIO_sjekk_brytar(void);
 int8_t USART2_les(void);
-int16_t memes;
+int16_t count;
 void PWM_sett_vidde_TIM4_k4(uint16_t vidde);
 void GPIO_brytaravprelling(void);
 //---------------------------------------
@@ -44,7 +44,7 @@ void avbrot_oppstart(void) {
 //----------------------------------------------------------------
 void SysTick_oppstart(void) {
  // Oppsett av SysTick
-  memes = 0;
+	count = 0;
   NVIC_SetPriority(SysTick_IRQn, 1); // 0-31 der 0 er h�gast
   SysTick->CTRL = 0;  // Stopp teljaren
   SysTick->LOAD = 72000;  // Startverdi gir 1 msek avbrotsintervall.
@@ -83,9 +83,9 @@ void SysTick_Handler(void) {
 
 	}
 
-	memes++;
-	USART2_skriv((uint8_t)(memes & 0xFF)); // Send LSB
-	USART2_skriv((uint8_t)(memes >> 8));   // Send MSB
+	count++;
+	USART2_skriv((uint8_t)(count & 0xFF)); // Send LSB
+	USART2_skriv((uint8_t)(count >> 8));   // Send MSB
 
 	tikkteljar_diodar++;
 	if(tikkteljar_diodar >= 200) { //Har det gått 200 x 1 millisek sidan siste

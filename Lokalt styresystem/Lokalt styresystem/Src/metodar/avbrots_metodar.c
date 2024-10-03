@@ -84,7 +84,7 @@ void SysTick_Handler(void) {
 	}
 
 	count++;
-	USART2_skriv((uint8_t)(count & 0xFF)); // Send LSB
+	//USART2_skriv((uint8_t)(count & 0xFF)); // Send LSB
 	USART2_skriv((uint8_t)(count >> 8));   // Send MSB
 
 	tikkteljar_diodar++;

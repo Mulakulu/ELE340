@@ -82,11 +82,15 @@ void SysTick_Handler(void) {
 		}
 	}
 
-    uint8_t lsb = USART2_les(); // Read the LSB
+    //uint8_t lsb = USART2_les(); // Read the LSB
     uint8_t msb = USART2_les(); // Read the MSB
 
+    if(msb != 0x00)
+	{
+    	GPIO_sett_kompassmoenster(msb);
+	}
     // Combine LSB and MSB to form the original count
-    received_count = (int16_t)((msb << 8) | lsb);
+    received_count = (int16_t)((msb << 8) | msb);
 
 	tikkteljar_diodar++;
 	if(tikkteljar_diodar >= 200) { //Har det gått 200 x 1 millisek sidan siste

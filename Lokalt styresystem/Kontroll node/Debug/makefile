@@ -37,34 +37,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Sensor node
+BUILD_ARTIFACT_NAME := Kontroll node
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-Sensor\ node.elf \
+Kontroll\ node.elf \
 
 MAP_FILES += \
-Sensor\ node.map \
+Kontroll\ node.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-Sensor\ node.list \
+Kontroll\ node.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: Sensor\ node.elf secondary-outputs
+main-build: Kontroll\ node.elf secondary-outputs
 
 # Tool invocations
-Sensor\ node.elf Sensor\ node.map: $(OBJS) $(USER_OBJS) C:\Users\david\School\ELE340\ELE340_rep\Lokalt\ styresystem\Lokalt\ styresystem\STM32F303VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Sensor node.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\david\School\ELE340\ELE340_rep\Lokalt styresystem\Lokalt styresystem\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Sensor node.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Kontroll\ node.elf Kontroll\ node.map: $(OBJS) $(USER_OBJS) C:\Users\david\School\ELE340\ELE340_rep\Lokalt\ styresystem\Kontroll\ node\STM32F303VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Kontroll node.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\david\School\ELE340\ELE340_rep\Lokalt styresystem\Kontroll node\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Kontroll node.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,14 +73,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Sensor\ node.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Sensor node.list"
+Kontroll\ node.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Kontroll node.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Sensor\ node.elf Sensor\ node.list Sensor\ node.map Sensor\\ node.elf default.size.stdout
+	-$(RM) Kontroll\ node.elf Kontroll\ node.list Kontroll\ node.map Kontroll\\ node.elf default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

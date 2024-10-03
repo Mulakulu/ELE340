@@ -78,7 +78,6 @@ void SysTick_Handler(void) {
 			send_maaling = 1;          //hovudprogrammet om å køyra ny sending.
 			tikkteljar_uartkomm = 0;
 		}
-
 	}
 
 	tikkteljar_diodar++;
@@ -98,9 +97,13 @@ void SysTick_Handler(void) {
 		legg_til_meldingshovud = 1; //Aller først skal hovudprogrammet leggja til STX
 
 	}
-	if( kommando == 's')  {  //Stopp sending av målingane til loggaren
+	else if( kommando == 's')  {  //Stopp sending av målingane til loggaren
 		send_maalingar_til_loggar = 0;
 		legg_til_meldingshale = 1;
+
+	}
+	else
+	{
 
 	}
 

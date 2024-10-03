@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (11.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -37,34 +37,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Sensor node
+BUILD_ARTIFACT_NAME := Sensor Node
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-Sensor\ node.elf \
+Sensor\ Node.elf \
 
 MAP_FILES += \
-Sensor\ node.map \
+Sensor\ Node.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-Sensor\ node.list \
+Sensor\ Node.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: Sensor\ node.elf secondary-outputs
+main-build: Sensor\ Node.elf secondary-outputs
 
 # Tool invocations
-Sensor\ node.elf Sensor\ node.map: $(OBJS) $(USER_OBJS) C:\Users\david\School\ELE340\ELE340_rep\Lokalt\ styresystem\Lokalt\ styresystem\STM32F303VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Sensor node.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\david\School\ELE340\ELE340_rep\Lokalt styresystem\Lokalt styresystem\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Sensor node.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Sensor\ Node.elf Sensor\ Node.map: $(OBJS) $(USER_OBJS) C:\Users\mbnas\ELE340\ELE340_rep\Lokalt\ styresystem\Lokalt\ styresystem\STM32F303VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Sensor Node.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\mbnas\ELE340\ELE340_rep\Lokalt styresystem\Lokalt styresystem\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Sensor Node.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,14 +73,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Sensor\ node.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Sensor node.list"
+Sensor\ Node.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Sensor Node.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Sensor\ node.elf Sensor\ node.list Sensor\ node.map Sensor\\ node.elf default.size.stdout
+	-$(RM) Sensor\ Node.elf Sensor\ Node.list Sensor\ Node.map Sensor\\ Node.elf default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

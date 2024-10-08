@@ -6879,7 +6879,7 @@
 		)
 		(uuid "5899b671-d1ca-406c-a450-e2a81f4f1671")
 		(property "VBIAS" ""
-			(at 108.204 142.748 0)
+			(at 113.284 143.256 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8061,8 +8061,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a77617-1c8a-44e0-9094-bcc4e82ec924")
-		(property "Reference" "#U05"
-			(at 116.84 132.2068 0)
+		(property "Reference" "U5"
+			(at 121.92 130.9368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8070,7 @@
 			)
 		)
 		(property "Value" "MAX7407ESA+"
-			(at 116.84 134.1119 0)
+			(at 121.92 133.4768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8131,7 @@
 		(instances
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
-					(reference "#U05")
+					(reference "U5")
 					(unit 1)
 				)
 			)

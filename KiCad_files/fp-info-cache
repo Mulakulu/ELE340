@@ -1,4 +1,4 @@
-23846544358826220
+23850001138562132
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64694,6 +64694,13 @@ Yellow 5381 Series LED
 2
 2
 Library
+MB1x8Pins
+
+
+0
+8
+8
+Library
 Pin_Header_1x3_P2.54mm
 
 
@@ -64714,6 +64721,13 @@ SDR2207
 0
 2
 2
+Library
+Switch WE430182070816
+
+
+0
+4
+4
 Library
 testpoint_1.4mm
 
@@ -67311,6 +67325,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+MyLibrary1
+Switch WE430182070816
+
+
+0
+4
+4
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -95157,13 +95178,6 @@ test point THT pad
 0
 1
 1
-The_prittiest_library
-SDR2207
-
-
-0
-2
-2
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)

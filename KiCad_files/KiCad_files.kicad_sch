@@ -8071,7 +8071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a77617-1c8a-44e0-9094-bcc4e82ec924")
-		(property "Reference" "U05"
+		(property "Reference" "#U05"
 			(at 116.84 132.2068 0)
 			(effects
 				(font
@@ -8141,7 +8141,7 @@
 		(instances
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
-					(reference "U05")
+					(reference "#U05")
 					(unit 1)
 				)
 			)
@@ -13648,7 +13648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a330754a-b591-4c32-ac3c-f70866955f01")
-		(property "Reference" "20kΩ"
+		(property "Reference" "20kΩ1"
 			(at 138.43 165.1 90)
 			(effects
 				(font
@@ -13703,7 +13703,7 @@
 		(instances
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
-					(reference "20kΩ")
+					(reference "20kΩ1")
 					(unit 1)
 				)
 			)

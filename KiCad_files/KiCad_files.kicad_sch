@@ -13567,7 +13567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "The_prittiest_library:SDR2207"
 			(at 156.21 43.18 0)
 			(effects
 				(font

@@ -4391,12 +4391,6 @@
 		(uuid "1ad8b272-c7b5-4830-ba27-f1dd9814b147")
 	)
 	(junction
-		(at 73.66 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26c9c550-9c82-4cce-91c1-83095a5ca7d0")
-	)
-	(junction
 		(at 109.22 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4625,16 +4619,16 @@
 		(uuid "c23cc676-78ea-4d64-93a2-1e6e9f5c9c0f")
 	)
 	(junction
-		(at 64.77 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9568096-d572-42d1-8a08-4381a1c73860")
-	)
-	(junction
 		(at 73.66 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d18734f3-6587-4ef4-9e21-13a81fab0315")
+	)
+	(junction
+		(at 64.77 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d687259c-93ec-42f1-aa80-418f2f5e733e")
 	)
 	(junction
 		(at 29.21 82.55)
@@ -4703,6 +4697,12 @@
 		(uuid "f63ad9d1-2d5f-4364-b3d1-45f0c1886fef")
 	)
 	(junction
+		(at 73.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f73aff97-d644-46be-8753-fbcd272613e4")
+	)
+	(junction
 		(at 186.69 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4713,16 +4713,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9fa7cd2-0964-430f-a313-4f9043bc3cf3")
-	)
-	(wire
-		(pts
-			(xy 73.66 96.52) (xy 73.66 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029b3448-ba52-46af-ad82-dd89c7826250")
 	)
 	(wire
 		(pts
@@ -5606,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 97.79) (xy 73.66 97.79)
+			(xy 82.55 96.52) (xy 73.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +5716,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 97.79) (xy 82.55 93.98)
+			(xy 82.55 96.52) (xy 82.55 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5836,7 +5826,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 97.79) (xy 73.66 97.79)
+			(xy 64.77 96.52) (xy 73.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6506,7 +6496,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 97.79) (xy 64.77 97.79)
+			(xy 63.5 96.52) (xy 64.77 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10060,7 +10050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 66.04 137.668 90)
 			(effects
 				(font
@@ -10859,7 +10849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 63.5 160.528 90)
 			(effects
 				(font
@@ -12623,7 +12613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 147.32 163.068 90)
 			(effects
 				(font
@@ -14360,7 +14350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 74.93 137.668 90)
 			(effects
 				(font
@@ -14428,7 +14418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 129.54 163.068 90)
 			(effects
 				(font
@@ -14674,7 +14664,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 64.77 97.79 180)
+		(at 64.77 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14683,7 +14673,7 @@
 		(fields_autoplaced yes)
 		(uuid "b237cfae-2c51-40b5-8af5-96c0da9c36bb")
 		(property "Reference" "TP4"
-			(at 67.31 101.0919 0)
+			(at 67.31 99.8219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14692,7 +14682,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 62.23 99.8221 0)
+			(at 62.23 98.5521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14702,7 +14692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 97.79 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,7 +14701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 97.79 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14720,7 +14710,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 64.77 97.79 0)
+			(at 64.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14742,7 +14732,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 58.42 97.79 180)
+		(at 58.42 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14751,7 +14741,7 @@
 		(fields_autoplaced yes)
 		(uuid "c00bb3eb-0f8d-4626-9584-4564adca5c63")
 		(property "Reference" "J9"
-			(at 59.055 92.71 0)
+			(at 59.055 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14760,7 +14750,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 59.055 95.25 0)
+			(at 59.055 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14769,7 +14759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 97.79 0)
+			(at 58.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +14768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 97.79 0)
+			(at 58.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,7 +14777,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 58.42 97.79 0)
+			(at 58.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

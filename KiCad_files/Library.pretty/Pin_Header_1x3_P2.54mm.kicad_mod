@@ -1,13 +1,13 @@
-(footprint "Pin_Header_2x1_P2.54mm_Vertical"
+(footprint "Pin_Header_1x3_P2.54mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 12.7 -5.08 0)
+		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "baa5fff6-c3c3-4342-b7de-75b035895d30")
+		(uuid "6c5003cd-8ab4-4426-ac02-b399ebf41ad6")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Pin_Header_2x1_P2.54mm_Vertical"
-		(at 12.7 -2.54 0)
+	(property "Value" "Pin_Header_1x3_P2.54mm"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "77e60be2-8288-4352-8d38-8ce740d167d2")
+		(uuid "a742125b-4960-4eea-8005-28b927c80ba0")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "89c92995-1a87-405b-b483-4e3b55485d9e")
+		(uuid "28adc147-ccd6-4d27-bfbf-0b80da926875")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1dc756c7-ac8c-4fe2-8e04-8e465752ec37")
+		(uuid "08593d4b-2458-473a-8efd-9a2b45361f23")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ad77e78d-ddb7-4075-baa2-e553811ab105")
+		(uuid "d1dfe89f-719a-4daa-8ce6-25210ea40e83")
 		(effects
 			(font
 				(size 1 1)
@@ -68,10 +68,10 @@
 	)
 	(attr through_hole)
 	(fp_text user "${REFERENCE}"
-		(at 12.7 0 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d860077e-c876-4f6a-842d-08afda4c41a4")
+		(uuid "de75559c-7158-4ff8-a55f-77c45e7bbabf")
 		(effects
 			(font
 				(size 1 1)
@@ -85,7 +85,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "db90772b-74fd-4c3f-a1b6-117698bc0beb")
+		(uuid "af4312e9-9659-478c-a0fa-9ee2f2a4ce37")
 	)
 	(pad "2" thru_hole rect
 		(at 25.4 0)
@@ -93,6 +93,14 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "42a0baee-9b67-4491-be28-cdb2826708c9")
+		(uuid "9414b4a3-484c-4a65-a8dc-5d4638983150")
+	)
+	(pad "3" thru_hole rect
+		(at -25.4 0)
+		(size 0.64 0.64)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbafefb0-1079-4ba2-acb2-fbcd45bcf4b7")
 	)
 )

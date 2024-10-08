@@ -7953,7 +7953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Pin_Header_2x1_P2.54mm_Vertical"
 			(at 40.64 135.89 0)
 			(effects
 				(font
@@ -9926,7 +9926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Pin_Header_2x1_P2.54mm_Vertical"
 			(at 44.45 158.75 0)
 			(effects
 				(font

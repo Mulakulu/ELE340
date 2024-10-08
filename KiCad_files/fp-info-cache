@@ -1,4 +1,4 @@
-23841359204689801
+23843087582447797
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63350,6 +63350,13 @@ THT
 4
 2
 Jumper
+Pin_Header_2x1_P2.54mm_Vertical
+
+
+0
+2
+2
+Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
 net tie solder jumper bridged
@@ -64690,6 +64697,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+Library
+Pin_Header_2x1_P2.54mm_Vertical
+
+
 0
 2
 2
@@ -95136,13 +95150,6 @@ test point THT pad
 0
 1
 1
-The_prittiest_library
-SDR2207
-
-
-0
-2
-2
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)

@@ -1,4 +1,4 @@
-23850001138562132
+23858646205046426
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63350,6 +63350,13 @@ THT
 4
 2
 Jumper
+Pin_Header_2x1_P2.54mm_Vertical
+
+
+0
+2
+2
+Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
 net tie solder jumper bridged
@@ -64694,7 +64701,21 @@ Yellow 5381 Series LED
 2
 2
 Library
+CONN_HDE15P_AMP
+
+L717HDE15P 
+0
+17
+17
+Library
 MB1x8Pins
+
+
+0
+8
+8
+Library
+MB1x8Pins_part2
 
 
 0
@@ -64722,12 +64743,33 @@ SDR2207
 2
 2
 Library
+SL35290G
+SL 3.5/2/90G-2
+Connector
+0
+2
+2
+Library
+SOT95P230X110-3N
+SOT 23 (TO-236AB)
+Diode
+0
+3
+3
+Library
 Switch WE430182070816
 
 
 0
 4
 4
+Library
+TS53YJ203MR10
+TS53YJ203MR10-3
+Variable Resistor
+0
+3
+3
 Library
 testpoint_1.4mm
 
@@ -67325,13 +67367,6 @@ Mounting 4.5mm 9774100982
 0
 8
 1
-MyLibrary1
-Switch WE430182070816
-
-
-0
-4
-4
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

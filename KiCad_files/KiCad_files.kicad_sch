@@ -2696,20 +2696,23 @@
 				)
 			)
 		)
-		(symbol "New_Library:15pinDsub"
-			(exclude_from_sim no)
-			(in_bom yes)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -20.066 -0.762 0)
+			(property "Reference" "JP1"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at -7.62 2.54 0)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2717,7 +2720,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -7.62 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2725,8 +2728,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -7.62 2.54 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2734,8 +2737,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at -7.62 2.54 0)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0.254 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2743,101 +2746,110 @@
 					(hide yes)
 				)
 			)
-			(symbol "15pinDsub_1_1"
-				(rectangle
-					(start -21.59 2.54)
-					(end 21.59 -2.54)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin input line
-					(at -19.05 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type outline)
 					)
 				)
-				(pin input line
-					(at 3.81 5.08 270)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin input line
-					(at 6.35 5.08 270)
-					(length 2.54)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin input line
-					(at 8.89 5.08 270)
-					(length 2.54)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
-				(pin input line
-					(at 11.43 5.08 270)
-					(length 2.54)
-					(name "13"
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2845,197 +2857,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 13.97 5.08 270)
-					(length 2.54)
-					(name "14"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 5.08 270)
-					(length 2.54)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 19.05 5.08 270)
-					(length 2.54)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 5.08 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 5.08 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 5.08 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 5.08 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 5.08 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 5.08 270)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 5.08 270)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3290,23 +3122,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
+			(property "Reference" "J2"
+				(at 13.97 -16.5099 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "L717HDE15P"
-				(at 0 0 0)
+				(at 13.97 -19.0499 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "CONN_HDE15P_AMP"
+			(property "Footprint" "Library:15PinDsub"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3364,7 +3198,7 @@
 			(symbol "L717HDE15P_1_1"
 				(polyline
 					(pts
-						(xy 5.08 -38.1) (xy 12.7 -38.1)
+						(xy 5.08 -40.64) (xy 12.7 -40.64)
 					)
 					(stroke
 						(width 0.127)
@@ -3376,7 +3210,43 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -38.1)
+						(xy 5.08 2.54) (xy 5.08 -40.64)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -38.1) (xy 5.08 -38.1)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -38.1) (xy 8.89 -38.9467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -38.1) (xy 8.89 -37.2533)
 					)
 					(stroke
 						(width 0.127)
@@ -3928,7 +3798,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -38.1) (xy 12.7 2.54)
+						(xy 12.7 -40.64) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -4069,6 +3939,24 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5960,25 +5848,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
+			(property "Reference" "U2"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LT1963AxST-3.3"
-				(at -1.27 6.35 0)
+			(property "Value" "MC33275ST-3.3T3G"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -6084,6 +5970,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7121,6 +7025,12 @@
 		(uuid "1f376d12-9a59-4f12-8dcc-349bbba5cb5e")
 	)
 	(junction
+		(at 205.74 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22d9b042-d815-4f65-822c-8459a9f4af90")
+	)
+	(junction
 		(at 165.1 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7217,12 +7127,6 @@
 		(uuid "64c552c8-b89e-42a0-a34b-ee8c49cf1b8e")
 	)
 	(junction
-		(at 35.56 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67cfddaf-1bbd-4f1b-9dcf-90184636f9d5")
-	)
-	(junction
 		(at 114.3 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7263,12 +7167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "754cf101-9d0f-48d3-976d-7873b30c4b0f")
-	)
-	(junction
-		(at 35.56 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75aa0d5a-b010-4cee-a3ce-eb8a6a2d6a2b")
 	)
 	(junction
 		(at 34.29 115.57)
@@ -7373,6 +7271,12 @@
 		(uuid "c4cd5573-b844-4317-9802-ab69b4bc3912")
 	)
 	(junction
+		(at 35.56 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d11af92a-52bf-4fc8-a474-73ed26803b26")
+	)
+	(junction
 		(at 73.66 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7449,6 +7353,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f73aff97-d644-46be-8753-fbcd272613e4")
+	)
+	(junction
+		(at 35.56 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7fdda64-adb0-463c-94d3-05003eaed262")
 	)
 	(junction
 		(at 186.69 36.83)
@@ -7831,6 +7741,16 @@
 			(type default)
 		)
 		(uuid "1e93c4a6-44c7-44b7-bdaf-65234b0b92ff")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 35.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efdc4c7-83f2-47ea-99fd-292025453c87")
 	)
 	(wire
 		(pts
@@ -8594,6 +8514,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 46.99) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c52a5d5-331a-46d9-b42e-e08065d96660")
+	)
+	(wire
+		(pts
 			(xy 40.64 186.69) (xy 43.18 186.69)
 		)
 		(stroke
@@ -9094,6 +9024,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 85.09) (xy 35.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5ff867-7e32-4ebf-91c9-2950c16fed3d")
+	)
+	(wire
+		(pts
 			(xy 40.64 189.23) (xy 43.18 189.23)
 		)
 		(stroke
@@ -9414,16 +9354,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 87.63) (xy 35.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5cfaea-de07-4de1-9a2f-4356c9dfa9b3")
-	)
-	(wire
-		(pts
 			(xy 209.55 130.81) (xy 218.44 130.81)
 		)
 		(stroke
@@ -9554,16 +9484,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 91.44) (xy 35.56 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d470ceac-029e-4736-8afd-00a144a767ea")
-	)
-	(wire
-		(pts
 			(xy 48.26 128.27) (xy 57.15 128.27)
 		)
 		(stroke
@@ -9571,16 +9491,6 @@
 			(type default)
 		)
 		(uuid "d48df876-1fe4-4814-bad6-982276466dbd")
-	)
-	(wire
-		(pts
-			(xy 40.64 138.43) (xy 35.56 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f18f71-89fd-4266-bbb0-86d60ea27f33")
 	)
 	(wire
 		(pts
@@ -10433,6 +10343,17 @@
 		)
 		(uuid "6f58702d-0e52-4d70-928c-89be4722fc08")
 	)
+	(label "16"
+		(at 33.02 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70d26845-7d60-4de8-b8ff-3dbe9b9be2f9")
+	)
 	(label "13"
 		(at 59.69 76.2 0)
 		(fields_autoplaced yes)
@@ -10909,52 +10830,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 21.59 104.14 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b51b3b0-441c-44f2-ba58-508b3765f912")
-		(property "Netclass" "16"
-			(at 24.13 103.4415 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 43.18 80.01 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1daee42d-66b7-41d7-9672-22a1baf7cd40")
-		(property "Netclass" "12"
-			(at 40.64 79.3115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 85.09 27.94 0)
 		(effects
 			(font
@@ -10966,213 +10841,6 @@
 		(property "Vout_DA15" ""
 			(at 79.756 23.368 0)
 			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 43.18 85.09 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24603523-eae9-4f9f-808a-590b44bb5959")
-		(property "Netclass" "14"
-			(at 40.64 84.3915 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 88.9 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d24b207-ca58-425f-afae-0a48a6aff930")
-		(property "Netclass" "10"
-			(at 24.13 88.2015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 93.98 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ebb8f34-9dca-43b1-a41e-fd5ecd13fea9")
-		(property "Netclass" "12"
-			(at 24.13 93.2815 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 33.02 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3eea88fd-c7a0-4ced-8c50-b234cd94de72")
-		(property "Netclass" "8"
-			(at 30.48 70.4215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 33.02 80.01 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fcf6d31-45e6-4a7b-93d0-95813d35a114")
-		(property "Netclass" "2"
-			(at 30.48 79.3115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 33.02 82.55 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ebd3278-9831-43c9-9ff8-9421fbbff237")
-		(property "Netclass" "10"
-			(at 30.48 81.8515 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 68.58 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50c309f1-988b-4cad-9ca4-49f705c7241e")
-		(property "Netclass" "2"
-			(at 24.13 67.8815 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5397ce1c-0ae7-4554-b31c-3471c724e3e3")
-		(property "Netclass" "3"
-			(at 24.13 70.4215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5843938b-2c6b-468e-a527-e8125aa41307")
-		(property "Netclass" "4"
-			(at 24.13 72.9615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11231,75 +10899,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 43.18 87.63 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70b4d9b7-aeb3-4549-9101-c25df0191290")
-		(property "Netclass" "7"
-			(at 40.64 86.9315 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 66.04 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76ab8dbe-948f-4687-a803-c4211d454bd4")
-		(property "Netclass" "1"
-			(at 24.13 65.3415 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 43.18 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "787088d1-16e9-46d1-9006-e0a60bdb3d0d")
-		(property "Netclass" "1"
-			(at 40.64 70.4215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 46.99 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11312,328 +10911,6 @@
 		(property "Vout_DA15" ""
 			(at 47.6885 60.96 0)
 			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 76.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "807b3434-3aa5-426a-827d-e5930d79ccb1")
-		(property "Netclass" "5"
-			(at 24.13 75.5015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 33.02 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83c7a060-4f68-4be0-85b1-ebd2efe82799")
-		(property "Netclass" "15"
-			(at 30.48 72.9615 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 43.18 82.55 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "867e74ca-a74f-4e29-8239-c352d0ad36f9")
-		(property "Netclass" "6"
-			(at 40.64 81.8515 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 91.44 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "874b3f50-ef9c-482e-935d-4079b68ad519")
-		(property "Netclass" "11"
-			(at 24.13 90.7415 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 59.69 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87dfaf44-d04e-4114-b569-2d6e1ab4d456")
-		(property "Netclass" "5"
-			(at 57.15 83.1215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 33.02 85.09 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a756eb0-0efe-451f-9295-295dd1c6298b")
-		(property "Netclass" "3"
-			(at 30.48 84.3915 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 99.06 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9b6e8353-93e9-418a-b09f-5eaac6cc4c7a")
-		(property "Netclass" "14"
-			(at 24.13 98.3615 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 81.28 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c53d1db-847e-4c81-a76a-f775ca7068c0")
-		(property "Netclass" "7"
-			(at 24.13 80.5815 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 59.69 88.9 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e5e272c-6773-4244-9311-7a34b289d506")
-		(property "Netclass" "11"
-			(at 57.15 88.2015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 101.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e87951d-d1f1-4287-9534-7a6d7c4da512")
-		(property "Netclass" "15"
-			(at 24.13 100.9015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 59.69 76.2 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae42c927-91fe-471e-a11d-13f768206246")
-		(property "Netclass" "13"
-			(at 57.15 75.5015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 43.18 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af0a4837-fdf9-48b8-a57d-4ae8257ba0f8")
-		(property "Netclass" "9"
-			(at 40.64 72.9615 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 86.36 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bcbb18d1-536c-4c57-9f97-3a76850a7216")
-		(property "Netclass" "9"
-			(at 24.13 85.6615 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 33.02 87.63 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c670e2a4-dcd4-49a3-bce8-d0e7257ac409")
-		(property "Netclass" "16"
-			(at 30.48 86.9315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,29 +10970,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 59.69 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d95b54ff-1fd7-4fd9-95a0-bace6c22fd57")
-		(property "Netclass" "4"
-			(at 57.15 95.8215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 124.46 160.02 0)
 		(effects
 			(font
@@ -11727,75 +10981,6 @@
 		(property "VBIAS" ""
 			(at 119.634 155.448 0)
 			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0b7e19d-9aa0-43d0-94a3-a50ea00e05e2")
-		(property "Netclass" "8"
-			(at 24.13 83.1215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 96.52 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f88aeccf-09a7-4b86-9f78-97a8d766df58")
-		(property "Netclass" "13"
-			(at 24.13 95.8215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 21.59 78.74 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb746461-9c6f-42e8-8fd0-5ef098564fda")
-		(property "Netclass" "6"
-			(at 24.13 78.0415 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14737,116 +13922,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:15pinDsub")
-		(at 16.51 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41eb9fe5-0b24-4e34-b69f-529751745b21")
-		(property "Reference" "J4"
-			(at 16.51 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 16.51 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:15PinDsub"
-			(at 19.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7bf46455-044d-4609-8181-50e24fa2ba2e")
-		)
-		(pin ""
-			(uuid "2f9a2535-9a83-47c9-b545-9fc5a905377c")
-		)
-		(pin ""
-			(uuid "c69e57f3-29bb-4c79-b727-8e234154dbb4")
-		)
-		(pin ""
-			(uuid "f32886d9-9e12-4442-9ed5-ca5b6c2254ca")
-		)
-		(pin ""
-			(uuid "e9e5eb69-453c-4a4c-9e75-1cffad77eaff")
-		)
-		(pin ""
-			(uuid "3f574091-1f10-4248-8d3b-4092080f7196")
-		)
-		(pin ""
-			(uuid "68f647fb-b34e-4b36-9ff3-d90faef8a0ee")
-		)
-		(pin ""
-			(uuid "47632a5f-12d6-4fca-9ebc-8f3b557568df")
-		)
-		(pin ""
-			(uuid "bd2298b8-a319-45e6-97a5-0d9e66f4bf70")
-		)
-		(pin ""
-			(uuid "f45c9eeb-4ebd-44a8-b4a9-a4f35eb1e743")
-		)
-		(pin ""
-			(uuid "d55b1467-a374-44d7-b998-3e290024b962")
-		)
-		(pin ""
-			(uuid "b4b61a04-2326-4086-a80d-0466401c12fe")
-		)
-		(pin ""
-			(uuid "ffe86ef4-1704-4279-a218-00e0f766554a")
-		)
-		(pin ""
-			(uuid "4b123c96-727a-4b16-b17b-61b8c2978e9d")
-		)
-		(pin ""
-			(uuid "75082795-9359-46d7-9e59-46e05c5e8912")
-		)
-		(pin ""
-			(uuid "76aa3485-edb2-4228-9867-1c77031b893a")
-		)
-		(instances
-			(project ""
-				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 186.69 53.34 0)
 		(unit 1)
@@ -16501,7 +15576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH26-15S-0.3SHW_2Rows-15Pins-1MP_P0.60mm_Horizontal"
+		(property "Footprint" "Library:15PinDsub"
 			(at 33.02 19.05 0)
 			(effects
 				(font
@@ -16574,6 +15649,9 @@
 		)
 		(pin "11"
 			(uuid "3867a5e4-53b9-4b79-bee1-69f4ea447a0a")
+		)
+		(pin "16"
+			(uuid "ed2a1915-063a-4f86-a412-1509719aa775")
 		)
 		(instances
 			(project ""
@@ -19946,6 +19024,9 @@
 		(pin "2"
 			(uuid "0d5bfd27-d96c-4969-ad2c-4794212fbad6")
 		)
+		(pin "4"
+			(uuid "08a1489b-4095-4f31-b2d4-c5beeeaea4ec")
+		)
 		(instances
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
@@ -20086,6 +19167,74 @@
 			(project "KiCad_files"
 				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 38.1 138.43 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df377f4e-3ce7-4110-ac59-99acf7a3e6d7")
+		(property "Reference" "JP1"
+			(at 38.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 38.354 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "390791a3-ccae-4eaa-b988-f6086b1db7d1")
+		)
+		(pin "1"
+			(uuid "102c52c8-53fa-4a57-a57b-ade304087599")
+		)
+		(instances
+			(project ""
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "JP1")
 					(unit 1)
 				)
 			)

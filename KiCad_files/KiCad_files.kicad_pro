@@ -458,7 +458,31 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/1": "1",
+      "/11": "11",
+      "/13": "13",
+      "/15": "8",
+      "/4": "4",
+      "/5": "5",
+      "GNDA": "2",
+      "unconnected-(J4-1-Pad)": "1",
+      "unconnected-(J4-10-Pad)": "10",
+      "unconnected-(J4-11-Pad)": "11",
+      "unconnected-(J4-12-Pad)": "12",
+      "unconnected-(J4-13-Pad)": "13",
+      "unconnected-(J4-14-Pad)": "14",
+      "unconnected-(J4-15-Pad)": "15",
+      "unconnected-(J4-16-Pad)": "16",
+      "unconnected-(J4-2-Pad)": "2",
+      "unconnected-(J4-3-Pad)": "3",
+      "unconnected-(J4-4-Pad)": "4",
+      "unconnected-(J4-5-Pad)": "5",
+      "unconnected-(J4-6-Pad)": "6",
+      "unconnected-(J4-7-Pad)": "7",
+      "unconnected-(J4-8-Pad)": "8",
+      "unconnected-(J4-9-Pad)": "9"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

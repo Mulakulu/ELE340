@@ -13147,7 +13147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_MicroSMP_AK"
 			(at 144.145 48.26 0)
 			(effects
 				(font

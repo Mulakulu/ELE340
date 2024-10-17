@@ -1,0 +1,257 @@
+(footprint "SL35290G"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SL 3.5/2/90G-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 1.75 4.613 0)
+		(layer "F.SilkS")
+		(uuid "ff6aca6a-8d61-4ea9-ba29-aebe4d97b363")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SL35290G"
+		(at 1.75 4.613 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "83ce2281-2707-4532-bec6-73a8e1597654")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86df626e-0900-47e8-b87f-8e585bbb37cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc90e46f-4722-4199-9896-277ea9ce1f33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "910bf20c-a51c-48d0-bb7d-9906b4c53067")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -2.45 -0.9)
+		(end -2.45 10.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c7b6a21-726a-45e0-b4b5-1a8a057614b2")
+	)
+	(fp_line
+		(start -2.45 10.2)
+		(end 5.95 10.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89f6a842-0e1b-4a20-ba6c-5555e9e07248")
+	)
+	(fp_line
+		(start -1.4 -0.9)
+		(end -2.45 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36486448-ef57-4caf-949a-7c9deb599072")
+	)
+	(fp_line
+		(start 0 -1.5)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b45ebee-c804-4025-84e2-2db9b8e5a419")
+	)
+	(fp_line
+		(start 0 -1.4)
+		(end 0 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3cbbb99-f523-44ff-9ef0-c0ea63ce62f8")
+	)
+	(fp_line
+		(start 5.95 -0.9)
+		(end 4.6 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6750a13-eea8-42e8-b93b-1769d66b1006")
+	)
+	(fp_line
+		(start 5.95 10.2)
+		(end 5.95 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10f2af07-9eda-47a6-a7cf-067087a78d39")
+	)
+	(fp_arc
+		(start 0 -1.5)
+		(mid 0.05 -1.45)
+		(end 0 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8aeae33a-498b-4ec9-96ba-99200364dd53")
+	)
+	(fp_arc
+		(start 0 -1.4)
+		(mid -0.05 -1.45)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "142bb138-ff0e-4fa4-aff3-50880e9252d1")
+	)
+	(fp_line
+		(start -3.45 -1.975)
+		(end 6.95 -1.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9b33114b-2df6-41dd-adf0-70a03c0dd72a")
+	)
+	(fp_line
+		(start -3.45 11.2)
+		(end -3.45 -1.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5b0e2b6c-1470-4389-9fbc-b731f569095b")
+	)
+	(fp_line
+		(start -2.45 -0.9)
+		(end 5.95 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c38c1fc1-6204-4fea-acbc-c092f0e505ad")
+	)
+	(fp_line
+		(start -2.45 10.2)
+		(end -2.45 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fbf221cc-e7db-41d9-81a4-5493b35c19cf")
+	)
+	(fp_line
+		(start 5.95 -0.9)
+		(end 5.95 10.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9d2ebc43-7120-4e83-bdac-7e6fbeca0142")
+	)
+	(fp_line
+		(start 5.95 10.2)
+		(end -2.45 10.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7f8a974b-de9e-49b6-b728-e1e614e8ef55")
+	)
+	(fp_line
+		(start 6.95 -1.975)
+		(end 6.95 11.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "21c5dbec-6b89-4ff9-9d52-bc7a920dcba6")
+	)
+	(fp_line
+		(start 6.95 11.2)
+		(end -3.45 11.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "adbdc756-47b4-4ff2-a6f0-63e24415c3fc")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "4f7da92f-3dc1-43b1-a303-82db6311443a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 0 90)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "cdfe11c7-5eb6-4c69-89aa-4f67e8a03d2b")
+	)
+)

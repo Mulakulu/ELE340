@@ -1,4 +1,4 @@
-(footprint "Pin_Header_1x3_P2.54mm"
+(footprint "Pin_Header_1x3_P3.5mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Pin_Header_1x3_P2.54mm"
+	(property "Value" "Pin_Header_1x3_P3.5mm"
 		(at 0 2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -67,6 +67,56 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -6 -10)
+		(end -6 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25731a5a-f6a4-4468-88f1-717d47482304")
+	)
+	(fp_line
+		(start -6 1.1)
+		(end -4.65 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cb1ad28-ddcc-497c-9f66-f1b73b98fdba")
+	)
+	(fp_line
+		(start 4.625 1.1)
+		(end 5.975 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c36a8965-5c9f-4a34-a5cf-73efd1cd59a1")
+	)
+	(fp_line
+		(start 6 -10)
+		(end -6 -10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92faff64-53aa-47f0-97ab-6d5bb8520af2")
+	)
+	(fp_line
+		(start 6 1.1)
+		(end 6 -10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de601c7e-f288-4dc1-ac6a-ce046715e487")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5.08 0)
 		(unlocked yes)
@@ -80,8 +130,8 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -2.54 0)
-		(size 2 2)
+		(at -3.5 0)
+		(size 2.5 2.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -89,15 +139,15 @@
 	)
 	(pad "2" thru_hole circle
 		(at 0 0)
-		(size 2 2)
+		(size 2.5 2.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask" "Eco1.User")
 		(remove_unused_layers no)
 		(uuid "9414b4a3-484c-4a65-a8dc-5d4638983150")
 	)
 	(pad "3" thru_hole circle
-		(at 2.54 0)
-		(size 2 2)
+		(at 3.5 0)
+		(size 2.5 2.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

@@ -2953,9 +2953,9 @@
 	(footprint "Library:MB1x8Pins"
 		(layer "F.Cu")
 		(uuid "30f90e4d-a71f-4025-8fe8-b0ca991b78c4")
-		(at 35.98 11.16)
+		(at 187.38 117.34 90)
 		(property "Reference" "MB2_part1"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7850486b-a098-4942-b873-1f0fe27bf26d")
@@ -2967,7 +2967,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b98ead47-6f62-4fe4-9d3a-41da25f5cc03")
@@ -2979,7 +2979,7 @@
 			)
 		)
 		(property "Footprint" "Library:MB1x8Pins"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2992,7 +2992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3005,7 +3005,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3023,7 +3023,7 @@
 		(sheetfile "KiCad_files.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b1e115a9-adc6-4433-ba85-b7e683dd466a")
@@ -3035,7 +3035,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -10.16 -10.16)
+			(at -10.16 -10.16 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -3046,7 +3046,7 @@
 			(uuid "8f4f709c-7b25-4257-9021-d7a94b98210b")
 		)
 		(pad "2" thru_hole circle
-			(at -10.16 -7.62)
+			(at -10.16 -7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -3057,7 +3057,7 @@
 			(uuid "bf173b4d-b51c-4997-a459-83df049aa6cb")
 		)
 		(pad "3" thru_hole circle
-			(at -10.16 -5.08)
+			(at -10.16 -5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -3068,7 +3068,7 @@
 			(uuid "3963169a-29fd-4278-a425-359ba66c9ebe")
 		)
 		(pad "4" thru_hole circle
-			(at -10.16 -2.54)
+			(at -10.16 -2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -3079,7 +3079,7 @@
 			(uuid "0062d058-0229-4201-87c2-58bda08e3fe2")
 		)
 		(pad "5" thru_hole circle
-			(at -10.16 0)
+			(at -10.16 0 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -3090,7 +3090,7 @@
 			(uuid "d665ba68-09df-4148-999b-8d569996ad25")
 		)
 		(pad "6" thru_hole circle
-			(at -10.16 2.54)
+			(at -10.16 2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -3101,7 +3101,7 @@
 			(uuid "daacd379-9122-4980-a122-ea0aba5033c0")
 		)
 		(pad "7" thru_hole circle
-			(at -10.16 5.08)
+			(at -10.16 5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -3112,7 +3112,7 @@
 			(uuid "d3e6dc3b-cee7-4c12-802c-8ee27a8fb001")
 		)
 		(pad "8" thru_hole circle
-			(at -10.16 7.62)
+			(at -10.16 7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6409,9 +6409,9 @@
 	(footprint "Library:MB1x8Pins_part2"
 		(layer "F.Cu")
 		(uuid "78d610f4-2557-4cf9-83eb-c2a7b36aa9d1")
-		(at 23.57 11.16)
+		(at 187.38 65.84 90)
 		(property "Reference" "MB1_part2"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c8b21a5b-7bd3-4f14-be44-344379ff13b0")
@@ -6423,7 +6423,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "d37be2a5-db90-400c-8cac-9f72f47e697c")
@@ -6435,7 +6435,7 @@
 			)
 		)
 		(property "Footprint" "Library:MB1x8Pins_part2"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6448,7 +6448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6461,7 +6461,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6479,7 +6479,7 @@
 		(sheetfile "KiCad_files.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "19196bc6-8414-4315-a82a-a50a6ae6ff34")
@@ -6491,7 +6491,7 @@
 			)
 		)
 		(pad "9" thru_hole circle
-			(at -10.16 7.62)
+			(at -10.16 7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6502,7 +6502,7 @@
 			(uuid "e818fb7e-8a69-4490-b198-4a01c81fe42d")
 		)
 		(pad "10" thru_hole circle
-			(at -10.16 5.08)
+			(at -10.16 5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6513,7 +6513,7 @@
 			(uuid "2019ee77-01fa-4985-ac7a-252d17889e89")
 		)
 		(pad "11" thru_hole circle
-			(at -10.16 2.54)
+			(at -10.16 2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6524,7 +6524,7 @@
 			(uuid "01ec700a-c1cc-40f1-bafc-dd4edc883616")
 		)
 		(pad "12" thru_hole circle
-			(at -10.16 0)
+			(at -10.16 0 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6535,7 +6535,7 @@
 			(uuid "169f5ecc-b317-4160-ae55-e655574a0cd2")
 		)
 		(pad "13" thru_hole circle
-			(at -10.16 -2.54)
+			(at -10.16 -2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6546,7 +6546,7 @@
 			(uuid "06188501-9c5e-4d45-b09a-9424e880cf89")
 		)
 		(pad "14" thru_hole circle
-			(at -10.16 -5.08)
+			(at -10.16 -5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6557,7 +6557,7 @@
 			(uuid "d3785d25-1a16-4bc8-958e-0f93600d7dc0")
 		)
 		(pad "15" thru_hole circle
-			(at -10.16 -7.62)
+			(at -10.16 -7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -6568,7 +6568,7 @@
 			(uuid "ecea59fe-e962-421e-8065-678f438f51dd")
 		)
 		(pad "16" thru_hole circle
-			(at -10.16 -10.16)
+			(at -10.16 -10.16 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7636,9 +7636,9 @@
 	(footprint "Library:MB1x8Pins"
 		(layer "F.Cu")
 		(uuid "8bba294a-c230-4c74-81b0-8bf9e83b6c76")
-		(at 11.16 11.16)
+		(at 187.38 88.34 90)
 		(property "Reference" "MB1_part1"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2bae8ebd-98a2-4c0e-8138-673b629a9166")
@@ -7650,7 +7650,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ad9fd5d2-a9ef-4620-8c23-305f6147b547")
@@ -7662,7 +7662,7 @@
 			)
 		)
 		(property "Footprint" "Library:MB1x8Pins"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7675,7 +7675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7688,7 +7688,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7706,7 +7706,7 @@
 		(sheetfile "KiCad_files.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2bddfee7-0b5f-4bab-ab3c-410cdbf258f4")
@@ -7718,7 +7718,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -10.16 -10.16)
+			(at -10.16 -10.16 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7729,7 +7729,7 @@
 			(uuid "55579d6a-b114-4bee-b2b3-512c2c86d6bc")
 		)
 		(pad "2" thru_hole circle
-			(at -10.16 -7.62)
+			(at -10.16 -7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7740,7 +7740,7 @@
 			(uuid "1845b34a-4cd1-42f0-a872-7e5e8278ada7")
 		)
 		(pad "3" thru_hole circle
-			(at -10.16 -5.08)
+			(at -10.16 -5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7751,7 +7751,7 @@
 			(uuid "7678551e-1ed7-449f-b0be-82826c600de6")
 		)
 		(pad "4" thru_hole circle
-			(at -10.16 -2.54)
+			(at -10.16 -2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7762,7 +7762,7 @@
 			(uuid "28ee24e9-a2ba-4b9e-a9e0-3fe22ed54d19")
 		)
 		(pad "5" thru_hole circle
-			(at -10.16 0)
+			(at -10.16 0 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7773,7 +7773,7 @@
 			(uuid "b7652e4d-5f39-4223-a27a-b0f8ba749b2f")
 		)
 		(pad "6" thru_hole circle
-			(at -10.16 2.54)
+			(at -10.16 2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7784,7 +7784,7 @@
 			(uuid "4ec7b394-c2af-49a9-a4be-f022f6387bf3")
 		)
 		(pad "7" thru_hole circle
-			(at -10.16 5.08)
+			(at -10.16 5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7795,7 +7795,7 @@
 			(uuid "d31354da-83ef-4bc3-a932-da18019bffa3")
 		)
 		(pad "8" thru_hole circle
-			(at -10.16 7.62)
+			(at -10.16 7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12609,9 +12609,9 @@
 	(footprint "Library:MB1x8Pins_part2"
 		(layer "F.Cu")
 		(uuid "ca17896a-25ae-46bc-a476-94761c189a7b")
-		(at 48.39 11.16)
+		(at 187.38 94.84 90)
 		(property "Reference" "MB2_part2"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9bf3ad07-d5be-439e-af15-0b835f2ce2ca")
@@ -12623,7 +12623,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "dd1ed04c-ba6b-49c3-8b6f-0389f331cb40")
@@ -12635,7 +12635,7 @@
 			)
 		)
 		(property "Footprint" "Library:MB1x8Pins_part2"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12648,7 +12648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12661,7 +12661,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12679,7 +12679,7 @@
 		(sheetfile "KiCad_files.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2f5e98bc-3500-495c-8eb1-039e9a8ee51d")
@@ -12691,7 +12691,7 @@
 			)
 		)
 		(pad "9" thru_hole circle
-			(at -10.16 7.62)
+			(at -10.16 7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12702,7 +12702,7 @@
 			(uuid "e3b6387c-1a96-4826-80ef-9bd70932d6a5")
 		)
 		(pad "10" thru_hole circle
-			(at -10.16 5.08)
+			(at -10.16 5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12713,7 +12713,7 @@
 			(uuid "8a11ba11-a5ad-4c1c-9f85-6c7bd2af4ce9")
 		)
 		(pad "11" thru_hole circle
-			(at -10.16 2.54)
+			(at -10.16 2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12724,7 +12724,7 @@
 			(uuid "f6b8b231-17aa-47a6-bc7c-8e249ef7818b")
 		)
 		(pad "12" thru_hole circle
-			(at -10.16 0)
+			(at -10.16 0 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12735,7 +12735,7 @@
 			(uuid "ded8de4e-5068-4835-ac13-4e3681f67167")
 		)
 		(pad "13" thru_hole circle
-			(at -10.16 -2.54)
+			(at -10.16 -2.54 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12746,7 +12746,7 @@
 			(uuid "5778202e-fe3c-44ee-89ab-7ca9204c12d2")
 		)
 		(pad "14" thru_hole circle
-			(at -10.16 -5.08)
+			(at -10.16 -5.08 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12757,7 +12757,7 @@
 			(uuid "23447fb4-a314-4da6-aa9f-13caf214f98c")
 		)
 		(pad "15" thru_hole circle
-			(at -10.16 -7.62)
+			(at -10.16 -7.62 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12768,7 +12768,7 @@
 			(uuid "ec25d17a-bb5c-4d18-ad64-bc57fefd0575")
 		)
 		(pad "16" thru_hole circle
-			(at -10.16 -10.16)
+			(at -10.16 -10.16 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")

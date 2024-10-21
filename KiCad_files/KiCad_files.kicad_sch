@@ -16213,7 +16213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Pin_Header_1x3_P2.54mm"
+		(property "Footprint" "Library:Pin_Header_1x3_P3.5mm"
 			(at 26.67 135.89 0)
 			(effects
 				(font

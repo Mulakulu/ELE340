@@ -6388,23 +6388,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 8.89 0)
+			(property "Reference" "U1"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM22676MR-5"
-				(at 5.08 8.89 0)
+			(property "Value" "LM22670QMR-5.0"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:TI_SO-PowerPAD-8"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -6600,24 +6600,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17018,7 +17000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 135.89 26.67 0)
 			(effects
 				(font
@@ -17065,9 +17047,6 @@
 		)
 		(pin "2"
 			(uuid "9644142c-fc08-48d4-9e34-e5d29d15e0c2")
-		)
-		(pin "9"
-			(uuid "970f909e-d66f-442f-8c4b-4f2754679e7d")
 		)
 		(pin "7"
 			(uuid "2e07a7bc-4f94-48e6-8e56-7691310891e9")

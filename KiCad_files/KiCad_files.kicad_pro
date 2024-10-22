@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         0.7,
         1.0
       ],
@@ -476,7 +477,10 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GNDA": "rgb(255, 139, 0)",
+      "GNDD": "rgb(1, 0, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

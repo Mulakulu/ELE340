@@ -1,0 +1,2 @@
+Dsub 15's pins are circular rather than oval
+Dsub 15's data lines need to go on the other side of the board (B.Cu) so that we can solder to them

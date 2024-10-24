@@ -1,5 +1,5 @@
 Dsub 15's pins are circular rather than oval
 Dsub 15's data lines need to go on the other side of the board (B.Cu) so that we can solder to them
 J3's holes are too small (Square pins measured flat side and assumed to be diameter rather than diameter/sqrt(2)). Should be 1.2
-Gap should be different. The current gap size results in residue copper being left behind
-Edgecut are te wrong dimensions
+Gap should be different. The current gap size results in residue copper being left behind. Maybe 0.2mm
+(Done) Edgecut are te wrong dimensions

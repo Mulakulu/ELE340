@@ -6,5 +6,5 @@ Gap should be different. The current gap size results in residue copper being le
 C4 should be 10uF
 C12 has wrong footprint
 make d1 and capacitor soldier pads larger
-lm226 manlge ground underside i footprint
+lm226 manlge ground underside i footprint(for å stoppe kortslutning med 5v)
 Switch's footprint is too big

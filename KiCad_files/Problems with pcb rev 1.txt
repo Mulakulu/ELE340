@@ -8,3 +8,5 @@ C12 has wrong footprint
 make d1 and capacitor soldier pads larger
 lm226 manlge ground underside i footprint(for å stoppe kortslutning med 5v)
 Switch's footprint is too big
+8 pin connectors have ground on the wrong side
+Standoffs short ground to 5V

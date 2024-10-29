@@ -4,7 +4,7 @@ J3's holes are too small (Square pins measured flat side and assumed to be diame
 Gap should be different. The current gap size results in residue copper being left behind. Maybe 0.2mm
 (Done) Edgecut are te wrong dimensions
 C4 should be 10uF
-C12 has wrong footprint
+(Fixed) C12 has wrong footprint
 make d1 and capacitor soldier pads larger
 lm226 manlge ground underside i footprint(for å stoppe kortslutning med 5v)
 Switch's footprint is too big

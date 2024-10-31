@@ -11,3 +11,5 @@ Switch's footprint is too big
 8 pin connectors have ground on the wrong side
 Standoffs short ground to 5V
 u1 pin 4(FB) and pin 8(SW) is swapped
+u4 pin configuration(numbering) is entirely wrong
+u6 pin configuration(numbering) pin 8 in the schematic should be pin 5 instead

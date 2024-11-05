@@ -20,22 +20,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 6.35 0)
+			(property "Reference" "U6"
+				(at 11.43 6.3186 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "OPA690xD"
-				(at -1.27 3.81 0)
+			(property "Value" "LT1789"
+				(at 11.43 3.7786 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -206,6 +204,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "~{DIS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -224,10 +240,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 90)
+				(pin power_out line
+					(at 0 7.62 270)
 					(length 5.08)
-					(name "~{DIS}"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1224,8 +1240,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J3"
+				(at -0.635 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,14 +1249,15 @@
 				)
 			)
 			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
+				(at -0.635 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:Pin_Header_1x3_P3.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1385,9 +1402,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1403,9 +1420,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_3"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6172,7 +6189,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
+			(property "Reference" "U4"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -6237,10 +6254,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -6.35 1.27 0)
+				(pin output line
+					(at 6.35 -1.27 180)
 					(length 2.54)
-					(name "V_IN"
+					(name "V_BIAS"
 						(effects
 							(font
 								(size 0.508 0.508)
@@ -6248,6 +6265,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0.508 0.508)
@@ -6265,7 +6300,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -6273,28 +6308,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 6.35 1.27 180)
+				(pin power_in line
+					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "V_REF"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 -1.27 180)
-					(length 2.54)
-					(name "V_BIAS"
+					(name "V_IN"
 						(effects
 							(font
 								(size 0.508 0.508)
@@ -6310,9 +6327,9 @@
 					)
 				)
 				(pin output line
-					(at 0 -5.08 90)
+					(at 6.35 1.27 180)
 					(length 2.54)
-					(name "GND"
+					(name "V_REF"
 						(effects
 							(font
 								(size 0.508 0.508)
@@ -6486,7 +6503,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -6496,7 +6513,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm22676.pdf"
-				(at 1.27 0 0)
+				(at 1.524 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6505,7 +6522,7 @@
 				)
 			)
 			(property "Description" "3A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, SOIC-8"
-				(at 0 0 0)
+				(at 0 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6600,7 +6617,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -5.08 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -6635,7 +6652,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 2.54 -10.16 90)
 					(length 2.54)
 					(name "GND"
@@ -6672,7 +6689,7 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 5.08 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -6682,6 +6699,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7474,12 +7509,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f376d12-9a59-4f12-8dcc-349bbba5cb5e")
-	)
-	(junction
-		(at 205.74 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22d9b042-d815-4f65-822c-8459a9f4af90")
 	)
 	(junction
 		(at 165.1 138.43)
@@ -8349,6 +8378,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 48.26) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4edb3d-8769-4868-8e22-96c6203fcc7a")
+	)
+	(wire
+		(pts
 			(xy 121.92 148.59) (xy 121.92 149.86)
 		)
 		(stroke
@@ -8946,16 +8985,6 @@
 			(type default)
 		)
 		(uuid "6c522e70-1346-4918-a0e7-7c3c9470f054")
-	)
-	(wire
-		(pts
-			(xy 205.74 46.99) (xy 209.55 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c52a5d5-331a-46d9-b42e-e08065d96660")
 	)
 	(wire
 		(pts
@@ -14957,6 +14986,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 133.35 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e4d449-ac17-4676-8de5-60a86f40f4d6")
+		(property "Reference" "#PWR052"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99050480-1564-4a55-ba1b-e0dbd509cfa5")
+		)
+		(instances
+			(project "KiCad_files"
+				(path "/f93895fa-12b9-4ad7-81f4-36be00b56edd"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 119.38 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15565,8 +15660,11 @@
 		(pin "2"
 			(uuid "45df7452-cf03-4ea9-9544-ae7a8360cb42")
 		)
-		(pin "8"
+		(pin "5"
 			(uuid "debb369e-6771-46f6-9ba8-110dd19f552a")
+		)
+		(pin "8"
+			(uuid "3057a3fb-ff8a-415f-8f56-7dbee13416a2")
 		)
 		(instances
 			(project "KiCad_files"
@@ -17133,7 +17231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 167.132 50.292 0)
 			(effects
 				(font
@@ -17142,7 +17240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 168.91 48.26 0)
 			(effects
 				(font
@@ -17210,7 +17308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
 			(at 135.89 26.67 0)
 			(effects
 				(font
@@ -17220,7 +17318,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm22676.pdf"
-			(at 137.16 38.1 0)
+			(at 137.414 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17229,7 +17327,7 @@
 			)
 		)
 		(property "Description" "3A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, SOIC-8"
-			(at 135.89 38.1 0)
+			(at 135.89 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17260,6 +17358,9 @@
 		)
 		(pin "7"
 			(uuid "2e07a7bc-4f94-48e6-8e56-7691310891e9")
+		)
+		(pin "9"
+			(uuid "79e2f9c4-d7ac-4382-b5de-980be6238807")
 		)
 		(instances
 			(project "KiCad_files"

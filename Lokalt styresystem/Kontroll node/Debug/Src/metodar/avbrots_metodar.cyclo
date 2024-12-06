@@ -1,4 +1,0 @@
-../Inc/cmsis/core_cm4.h:1157:22:NVIC_SetPriority	2
-../Src/metodar/avbrots_metodar.c:34:6:avbrot_oppstart	1
-../Src/metodar/avbrots_metodar.c:45:6:SysTick_oppstart	1
-../Src/metodar/avbrots_metodar.c:59:6:SysTick_Handler	8

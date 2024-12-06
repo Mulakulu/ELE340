@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,13 +50,26 @@ SPI_HandleTypeDef hspi1;
 
 TIM_HandleTypeDef htim4;
 
+UART_HandleTypeDef huart2;
+UART_HandleTypeDef huart3;
+
 PCD_HandleTypeDef hpcd_USB_FS;
 
 /* USER CODE BEGIN PV */
 uint16_t dist = 0;
 float smoothDist = 0;
-float smoothingFactor = 0.0001;
+float smoothingFactor = 0.3;
+uint32_t counter = 0;
+uint16_t value_to_send;
+uint8_t message[2];
 
+//Zeroth index is 20cm. All subsequent are 5cm * index
+uint16_t conversion[21] = {
+		 3292	,2947	,2548	,2230	,1944			//20 25 30 35 40
+		,1706	,1523	,1349	,1219	,1117			//45 50 55 60 65
+		,1016	,938	,862	,826	,771			//70 75 80 85 90
+		,720	,667	,636	,600	,587	,561	//95 100 105 110 115 120
+};
 
 /* USER CODE END PV */
 
@@ -67,13 +81,35 @@ static void MX_SPI1_Init(void);
 static void MX_USB_PCD_Init(void);
 static void MX_ADC3_Init(void);
 static void MX_TIM4_Init(void);
+static void MX_USART3_UART_Init(void);
+static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint16_t valToMilli(uint16_t value)
+{
 
+	//Value is too large. Likely too close to the sensor.
+	if (value > conversion[0]) return 200;
+
+	//Loop through all tests to see how far away the value is
+	for (uint16_t i = 1;i < 22;i++)
+	{
+		if (value > conversion[i])
+		{
+			uint16_t minVal = conversion[i];
+			uint16_t maxVal = conversion[i-1];
+			float fracBetween = (float)(value-minVal)/(maxVal-minVal);
+			return (uint16_t)roundf(200+i*50-fracBetween*50);
+		};
+	};
+
+	//Value is too small, meaning the distance is too high
+	return 1200;
+}
 /* USER CODE END 0 */
 
 /**
@@ -110,6 +146,8 @@ int main(void)
   MX_USB_PCD_Init();
   MX_ADC3_Init();
   MX_TIM4_Init();
+  MX_USART3_UART_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
   __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, htim4.Init.Period / 2);
@@ -119,15 +157,25 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
 
+  HAL_ADC_Start(&hadc3);
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_ADC_Start(&hadc3);
-	  HAL_ADC_PollForConversion(&hadc3, 20);
-	  dist = HAL_ADC_GetValue(&hadc3);
-	  smoothDist = smoothDist*(1-smoothingFactor)+dist*smoothingFactor;
+	  if (HAL_ADC_PollForConversion(&hadc3, 1) != 0) {
+		  //Gather distance data, and smooth it out
+		  dist = HAL_ADC_GetValue(&hadc3);
+		  smoothDist = smoothDist*(1-smoothingFactor)+dist*smoothingFactor;
+		  counter++;
+		  HAL_ADC_Start(&hadc3);
+
+		  //Send the distance data
+		  value_to_send = valToMilli((uint16_t)roundf(smoothDist));
+		  message[0] = (value_to_send >> 8) & 0xFF; // High byte
+		  message[1] = value_to_send & 0xFF;        // Low byte
+		  HAL_UART_Transmit(&huart3, message, 2, HAL_MAX_DELAY);
+	  };
   }
   /* USER CODE END 3 */
 }
@@ -171,8 +219,11 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USB|RCC_PERIPHCLK_I2C1
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USB|RCC_PERIPHCLK_USART2
+                              |RCC_PERIPHCLK_USART3|RCC_PERIPHCLK_I2C1
                               |RCC_PERIPHCLK_ADC34;
+  PeriphClkInit.Usart2ClockSelection = RCC_USART2CLKSOURCE_PCLK1;
+  PeriphClkInit.Usart3ClockSelection = RCC_USART3CLKSOURCE_PCLK1;
   PeriphClkInit.Adc34ClockSelection = RCC_ADC34PLLCLK_DIV1;
   PeriphClkInit.I2c1ClockSelection = RCC_I2C1CLKSOURCE_HSI;
   PeriphClkInit.USBClockSelection = RCC_USBCLKSOURCE_PLL_DIV1_5;
@@ -396,6 +447,76 @@ static void MX_TIM4_Init(void)
 }
 
 /**
+  * @brief USART2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART2_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART2_Init 0 */
+
+  /* USER CODE END USART2_Init 0 */
+
+  /* USER CODE BEGIN USART2_Init 1 */
+
+  /* USER CODE END USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 38400;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART2_Init 2 */
+
+  /* USER CODE END USART2_Init 2 */
+
+}
+
+/**
+  * @brief USART3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART3_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART3_Init 0 */
+
+  /* USER CODE END USART3_Init 0 */
+
+  /* USER CODE BEGIN USART3_Init 1 */
+
+  /* USER CODE END USART3_Init 1 */
+  huart3.Instance = USART3;
+  huart3.Init.BaudRate = 38400;
+  huart3.Init.WordLength = UART_WORDLENGTH_8B;
+  huart3.Init.StopBits = UART_STOPBITS_1;
+  huart3.Init.Parity = UART_PARITY_NONE;
+  huart3.Init.Mode = UART_MODE_TX_RX;
+  huart3.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart3.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart3.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart3.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART3_Init 2 */
+
+  /* USER CODE END USART3_Init 2 */
+
+}
+
+/**
   * @brief USB Initialization Function
   * @param None
   * @retval None
@@ -480,6 +601,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
 
 /* USER CODE END 4 */
 
